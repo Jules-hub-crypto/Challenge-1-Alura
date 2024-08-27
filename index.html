@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador y Desencriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap">
+</head>
+<body>
+    <header>
+        <img src="/Images/Logo (1).svg" alt="Logo de Encriptador Challenge">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedor-caja-texto">
+                <textarea id="textoInput" placeholder="Ingresa el texto aquí para encriptar o desencriptar" class="text-area"></textarea>
+            </div>
+            <div id="alertaError" class="alerta"></div>
+            <div class="contenedor-botones">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedor-munieco">
+                <img src="/Images/Muñeco.svg" alt="Muñeco decorativo">
+            </div>
+            <div class="contenedor-parrafo">
+                <h3 class="msgNoEncontrado">Ningún mensaje fue encontrado</h3>
+                <p class="msgTxtNoEncontrado">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="contenedor-resultado">
+                <textarea id="mensaje" class="mensaje" readonly></textarea>
+            </div>
+            <div class="contenedor-copiar">
+                <button class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Dora Yulieth Sánchez Garzón</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
